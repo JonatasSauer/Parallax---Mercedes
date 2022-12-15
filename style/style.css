@@ -141,6 +141,10 @@ section#seila{
     transition: .7s;
 }
 
+.aviso{
+    color: #fff;
+}
+
 .secao h3{
     margin-top: -10px;
     padding-top: 100px;
