@@ -1,0 +1,82 @@
+@keyframes border {
+    0%{
+        border: rgba(255, 255, 255, 0.5)
+    }
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #000;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+}
+html{
+    width: 100vw;
+    height: 100%;
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+    background: url(https://th.bing.com/th/id/R.b788e932674c842b2560a6002c552a40?rik=vH6woAbHwexrBQ&pid=ImgRaw&r=0) no-repeat;
+    background-size: 50% 50%;
+    background-attachment: fixed;
+    background-position: center center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    width:w 100%; 
+    height:100px;
+    /* background: rgba(0, 0, 0, 0.8); */
+    background: linear-gradient(to right,#000,#111);
+    background-size: 100% 100%;
+    opacity: 100%;
+    overflow: hidden;
+}
+
+header .logo{
+    width: 60%;
+}
+.indicator{
+    border-bottom: 2px solid rgb(220, 150, 1);
+    width: 90px;
+}
+
+.navegacao li:hover{
+   margin: 10px;
+    border-bottom: 2px solid rgb(220, 52, 1);
+    width: 90px;
+    transition: 1s;
+}
+.logo img{
+    width: 250px;
+    height: 200px;
+    
+
+  
+}
+header .navegacao{
+    width: 40%;
+}
+
+.navegacao li{
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.navegacao a{
+    text-decoration: none;
+    color: white;
+    font-size: 13pt;
+}
+
+
